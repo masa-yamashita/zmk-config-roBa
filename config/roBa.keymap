@@ -64,8 +64,8 @@
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
             flavor = "hold-preferred";
-            tapping-term-ms = <60>;
-            quick-tap-ms = <50>;
+            tapping-term-ms = <95>;
+            quick-tap-ms = <90>;
             bindings = <&kp>, <&kp>;
 
             hold-trigger-key-positions = <1>;    // <---[[the W key]]
