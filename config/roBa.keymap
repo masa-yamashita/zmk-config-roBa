@@ -69,7 +69,9 @@
 
             hold-trigger-key-positions = <1>;    // <---[[the W key]]
         };
+
         delshift: hold_key_repeat {
+            compatible = "zmk,behavior-hold-tap";
             bindings = <&kp DEL>, <&kp LSHIFT>;
             tapping-term-ms = <200>;
             hold-trigger-on-release = <true>;
