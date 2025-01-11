@@ -64,7 +64,6 @@
             flavor = "hold-preferred";
             tapping-term-ms = <150>;
             require-prior-idle-ms = <0>;
-            hold-trigger-on-release = <false>;
             bindings = <&kp>, <&kp>;
 
             hold-trigger-key-positions = <1>;    // <---[[the W key]]
@@ -75,7 +74,7 @@
             bindings = <&kp DEL>, <&kp LSHIFT>;
 
             tapping-term-ms = <200>;
-            hold-trigger-on-release = <true>;
+            hold-trigger-on-release;
         };
     };
 
