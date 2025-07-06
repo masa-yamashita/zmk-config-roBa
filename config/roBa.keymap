@@ -98,7 +98,7 @@
 
         NUM {
             bindings = <
-&kp EXCLAMATION  &kp AT_SIGN  &kp HASH  &kp DOLLAR     &kp PERCENT                    &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &trans  &trans
+&kp EXCLAMATION  &kp AT_SIGN  &kp HASH  &kp DOLLAR     &kp PERCENT                    &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &trans  &kp LG(LA(C_POWER))
 &kp QUESTION     &trans       &trans    &kp AMPERSAND  &kp PIPE     &trans    &trans  &trans        &trans        &trans        &trans  &trans
 &kp BACKSLASH    &trans       &trans    &trans         &kp GRAVE    &trans    &trans  &macro0       &macro1       &macro2       &trans  &trans
 &kp F13          &trans       &trans    &trans         &kp ENTER    &trans    &trans  &trans                                            &trans
