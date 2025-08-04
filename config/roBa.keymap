@@ -42,6 +42,12 @@
             bindings = <&kp M &kp A &kp S &kp A &kp G &kp O &kp N &kp T &kp A &kp NUMBER_3>;
             label = "MACRO0";
         };
+
+	double_click_left: double_click_left {
+	    compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&mkp LCLK>, <&macro_wait_time 100>, <&mkp LCLK>;
+	};
     };
 
     behaviors {
