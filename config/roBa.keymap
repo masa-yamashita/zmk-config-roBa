@@ -48,6 +48,15 @@
             #binding-cells = <0>;
             bindings = <&mkp LCLK>, <&macro_wait_time 100>, <&mkp LCLK>;
 	};
+	      
+	tap_hold_click: tap_hold_click {
+    	    compatible = "zmk,behavior-hold-tap";
+    	    #binding-cells = <2>;
+    	    flavor = "tap-preferred";
+    	    tapping-term-ms = <200>;
+    	    quick-tap-ms = <125>;
+    	    bindings = <&double_click_left>, <&mkp>;
+	};
     };
 
     behaviors {
