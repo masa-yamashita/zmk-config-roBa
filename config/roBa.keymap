@@ -19,7 +19,19 @@
 };
 
 / {
-    combos { compatible = "zmk,combos"; };
+    combos {
+        compatible = "zmk,combos";
+
+        f13 {
+            bindings = <&kp F13>;
+            key-positions = <12 13>;
+        };
+
+        sleep {
+            bindings = <&kp K_POWER>;
+            key-positions = <18 19>;
+        };
+    };
 
     macros {
         macro1: macro1 {
