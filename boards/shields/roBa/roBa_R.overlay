@@ -75,3 +75,9 @@
         smart-mode;
     };
 };
+
+&zip_temp_layer {
+    // 7: SCRL_UP, 18: LCLK, 19: SCRL_DOWN, 20: RCLK, 35: SCRL_LEFT, 36: SCRL_RIGHT
+    // これらを押してもオートマウスレイヤーが解除されないようにする
+    excluded-positions = <7 18 19 20 35 36>;
+};
