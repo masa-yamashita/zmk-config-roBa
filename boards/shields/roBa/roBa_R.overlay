@@ -71,5 +71,7 @@
         // scroll-layers = <4>; // Zephyr 4.1.0/ZMK native pointing requires zmk,input-listener for this
         zephyr,axis-x = <INPUT_REL_X>;
         zephyr,axis-y = <INPUT_REL_Y>;
+        res-cpi = <400>;
+        smart-mode;
     };
 };
