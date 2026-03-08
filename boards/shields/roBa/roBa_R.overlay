@@ -78,7 +78,8 @@
 };
 
 &zip_temp_layer {
-    // 7: SCRL_UP, 18: LCLK, 19: SCRL_DOWN, 20: RCLK, 35: SCRL_LEFT, 36: SCRL_RIGHT
+    // 7: SCRL_UP, 18: LCLK, 19: SCRL_DOWN, 20: RCLK, 35: SCRL_LEFT, 36: SCRL_RIGHT (マウス挙動)
+    // 11, 34, 35, 36, 37, 38: 親指キー（LTやマクロなど）
     // これらを押してもオートマウスレイヤーが解除されないようにする
-    excluded-positions = <7 18 19 20 35 36>;
+    excluded-positions = <7 18 19 20 22 23 35 36 11 32 33 34 37 38 39>;
 };
