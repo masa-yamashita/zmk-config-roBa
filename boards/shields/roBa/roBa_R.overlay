@@ -20,6 +20,15 @@
         status = "okay";
         compatible = "zmk,input-listener";
         device = <&trackball>;
+        
+        // automouse-layer = <1> の代替: 移動時に指定時間レイヤー1を有効化
+        input-processors = <&zip_temp_layer 1 2000>;
+        
+        // scroll-layers = <4> の代替: レイヤー4の時だけスクロールに変換
+        scroll {
+            layers = <4>;
+            input-processors = <&zip_xy_to_scroll_mapper>;
+        };
     };
 };
 
