@@ -6,7 +6,9 @@
 #define MOUSE 1
 #define SCROLL 4
 #define NUM 6
+
 #undef ZMK_POINTING_DEFAULT_SCRL_VAL
+
 #define ZMK_POINTING_DEFAULT_SCRL_VAL 100
 
 &mt {
@@ -22,7 +24,6 @@
 &trackball {
     // automouse-layer = <1>;
     // scroll-layers = <4>;
-
     // arrows {
     //     layers = <3>;
     //     bindings =
@@ -30,7 +31,6 @@
     //         <&kp LEFT_ARROW>,
     //         <&kp UP_ARROW>,
     //         <&kp DOWN_ARROW>;
-
     //     tick = <10>;
     //     wait-ms = <5>;
     //     tap-ms = <5>;
@@ -126,7 +126,7 @@
             bindings = <
 &kp Q                 &kp W         &kp E             &kp R                     &kp T                                              &kp Y        &kp U  &lt 0 I    &kp O    &kp P
 &kp A                 &kp S         &kp D             &kp F                     &kp G        &kp LS(LG(V))    &kp LA(LG(K_POWER))  &kp H        &kp J  &kp K      &kp L    &kp SEMICOLON
-&kp Z                 &kp X         &kp C             &kp V                     &kp B        &kp F13          &kp LG(DELETE)       &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
+&kp Z                 &kp X         &kp C             &kp V                     &kp B        &kp F13          &kp LC(SPACE)        &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
 &ht LEFT_COMMAND F13  &kp LEFT_ALT  &kp LEFT_CONTROL  &mt LEFT_SHIFT BACKSPACE  &lt 1 SPACE  &lt 3 TAB        &mt LEFT_WIN MINUS   &lt 2 ENTER                             &kp SINGLE_QUOTE
             >;
 
